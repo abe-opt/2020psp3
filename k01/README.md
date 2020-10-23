@@ -47,7 +47,7 @@ typedef struct {
     - City arrayCity: 検索対象の都市別人口データ(配列)
     - int left: バイナリサーチを行う配列のindex(左端)
     - int right: バイナリサーチを行う配列のindex(右端)  
-
+    - 
     [出力]  
     - return値: IDが合致した配列データのindex。IDが一致するデータがない場合は-1。
 
