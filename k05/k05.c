@@ -114,7 +114,7 @@ void DepthFirstSearch(int size, int matrix[size][size], int start)
         visited[index] = 0;
     }
 
-    StackInit;
+    StackInit();
     StackPush(start);
 
     while(StackIsEmpty() == FALSE){
@@ -209,7 +209,7 @@ void BreadthFirstSearch(int size, int matrix[size][size], int start)
         visited[index] = 0;
     }
 
-    InitQueue;
+    InitQueue();
     EnQueue(start);
 
     while(QueueIsEmpty() == FALSE){
