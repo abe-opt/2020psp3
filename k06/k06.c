@@ -89,7 +89,7 @@ void DynamicProgLimited(Menu arrayItem[], int items, int nap_size, int cur_j)
             history[i][k] = k;
         }
 
-        for(j = k + 1; j <= nap_size; j++){
+        for(j = k ; j <= nap_size; j++){
             nap_value[i][j] = nap_value[i - 1][j - arrayItem[i - 1].price] + arrayItem[i - 1].calorie;
             history[i][j] = j - arrayItem[i - 1].price;
 
